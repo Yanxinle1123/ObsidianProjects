@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.671875,
-    "collapsed": true
+    "width": 317.671875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,8 +213,9 @@
   },
   "active": "25c604c8aeb92935",
   "lastOpenFiles": [
-    "测试插件.md",
+    "未命名.md",
     "Obsidian手机端的安装.md",
+    "测试插件.md",
     "测试关联图.md",
     "测试.md"
   ]
