@@ -31,24 +31,10 @@
             "id": "9d2fc2a5d00794df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "测试关联图.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": true,
-                  "searchQuery": "测试",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
-              },
-              "icon": "lucide-file",
-              "title": "测试关联图"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -129,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -191,7 +175,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -241,7 +224,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b146c95b6a474e9b",
+  "active": "9d2fc2a5d00794df",
   "lastOpenFiles": [
     "测试关联图.md",
     "测试.md"
