@@ -8,12 +8,12 @@
 
 ## 1. 安装
 
-| 平台 | 命令 |
-|------|------|
-| macOS (Homebrew) | `brew install ffmpeg` |
-| Ubuntu/Debian | `sudo apt install ffmpeg` |
-| Windows (Chocolatey) | `choco install ffmpeg` |
-| Windows (Scoop) | `scoop install ffmpeg` |
+| 平台                   | 命令                        |
+| -------------------- | ------------------------- |
+| macOS (Homebrew)     | `brew install ffmpeg`     |
+| Ubuntu/Debian        | `sudo apt install ffmpeg` |
+| Windows (Chocolatey) | `choco install ffmpeg`    |
+| Windows (Scoop)      | `scoop install ffmpeg`    |
 
 > 注意：Homebrew 默认装的 `ffmpeg` 可能缺少某些非自由编码器（如 `libx264`、`libx265`）。若需要完整功能，macOS 可用 `brew install ffmpeg --with-...`（新版 Homebrew 改为通过 `ffmpeg` 包的 option 启用，或用 `brew install ffmpeg --build-from-source`）。
 
@@ -224,9 +224,9 @@ ffmpeg -i in.mp4 -c:v h264_videotoolbox -b:v 4M out.mp4
 ffmpeg -i in.mp4 -c:v hevc_videotoolbox -b:v 4M out.mp4
 ```
 
-> 你的 M1 Pro 用 VideoToolbox 比 CPU 编码快很多，但 CRF 控制不适用，改用 `-b:v` 固定码率。
+> M 芯片用 VideoToolbox 比 CPU 编码快很多，但 CRF 控制不适用，改用 `-b:v` 固定码率。
 
-### NVIDIA（仅参考，你无 N 卡）
+### NVIDIA（仅参考）
 
 ```bash
 ffmpeg -i in.mp4 -c:v h264_nvenc -preset p1 out.mp4
