@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d511e6a1b1e64612",
+        "id": "c9d3ac2d5a805d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "0639f46ba956459b",
+            "id": "fbc87b77b3b4b737",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -208,9 +208,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "074778de81292aef",
+  "active": "fbc87b77b3b4b737",
   "lastOpenFiles": [
-    "未命名.md",
+    "测试快捷键.md",
     "Obsidian手机端的安装.md",
     "测试插件.md",
     "测试关联图.md",
